@@ -45,8 +45,8 @@
   <link rel="preconnect" href="https://api.fontshare.com">
   <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/main.css?v=1791681370">
-  <script type="module" src="/assets/js/main.js?v=1791681370"></script>
+  <link rel="stylesheet" href="/assets/css/main.css?v=1791762341">
+  <script type="module" src="/assets/js/main.js?v=1791762341"></script>
 </head>
 <body>
   <div class="loader" data-loader aria-hidden="true">
@@ -128,7 +128,7 @@
     <p class="eyebrow mt-16 flex" data-reveal><span class="text-accent">SAVTEK 2026 · METU Culture and Convention Center</span></p>
     <h1 class="mt-8 max-w-6xl overflow-clip pb-[.14em] text-4xl leading-[1.05] tracking-[-.035em] sm:text-7xl lg:text-8xl"><span class="block" data-mask>Quantum Key Distribution System with Real-Time Eavesdropping Detection</span></h1>
     <div class="mt-14 grid gap-12 border-t border-line pt-10 lg:grid-cols-12">
-      <p class="font-display text-2xl leading-snug tracking-[-.015em] sm:text-3xl lg:col-span-7" data-reveal>In a Raspberry Pi based system developed with my teammates, we modelled the BB84 and B92 quantum key distribution protocols, detected possible eavesdropping attempts in real time via QBER, and used the secure keys for AES-GCM encrypted data transmission.</p>
+      <p class="font-display text-2xl leading-snug tracking-[-.015em] sm:text-3xl lg:col-span-7" data-reveal>In a Raspberry Pi based system developed with my teammates, we modeled the BB84 and B92 quantum key distribution protocols, detected possible eavesdropping attempts in real time via QBER, and used the secure keys for AES-GCM encrypted data transmission.</p>
       <dl class="grid gap-6 lg:col-span-4 lg:col-start-9" data-reveal>
         <div class="border-t border-line pt-3"><dt class="meta text-muted">Presentation</dt><dd class="mt-1 font-display text-xl">SAVTEK 2026<br>9–11 September 2026</dd></div>
         <div class="border-t border-line pt-3"><dt class="meta text-muted">Venue</dt><dd class="mt-1 font-display text-xl">METU Culture and Convention Center<br>Ankara</dd></div>
@@ -141,7 +141,7 @@
     <div class="page grid gap-14 lg:grid-cols-12">
       <div class="lg:col-span-7" data-reveal>
         <h2 class="text-4xl tracking-[-.03em] sm:text-5xl">Problem and approach</h2>
-        <p class="mt-8 text-xl leading-relaxed text-muted">This work is a prototype and test environment designed to study QKD protocols on a low-cost embedded system. It is not an operational quantum communication link using a physical single-photon source or photon detector. The BB84 and B92 processes, including bit generation, basis selection, measurement, sifting, and eavesdropper scenarios, were modelled algorithmically on a Raspberry Pi.</p>
+        <p class="mt-8 text-xl leading-relaxed text-muted">This work is a prototype and test environment designed to study QKD protocols on a low-cost embedded system. It is not an operational quantum communication link using a physical single-photon source or photon detector. The BB84 and B92 processes, including bit generation, basis selection, measurement, sifting, and eavesdropper scenarios, were modeled algorithmically on a Raspberry Pi.</p>
         <ul class="mt-8 flex flex-wrap gap-2">
           <li class="tag">Raspberry Pi 3 B+</li><li class="tag">Raspberry Pi OS</li><li class="tag">Python</li><li class="tag">BB84</li><li class="tag">B92</li><li class="tag">QBER</li><li class="tag">AES-GCM</li>
         </ul>
@@ -150,7 +150,7 @@
         <div class="overflow-hidden rounded-sm border border-line bg-white" data-clip>
           <img class="w-full" src="/assets/savtek-2026-acceptance.webp" width="1272" height="894" decoding="async" fetchpriority="high" alt="SAVTEK 2026 acceptance and presentation certificate">
         </div>
-        <figcaption class="mt-4 text-muted" data-reveal>The paper was accepted to SAVTEK 2026, the 12th Defence Technologies Congress, and presented by the team at METU.<span class="meta mt-2 block">SAVTEK 2026 congress presentation acceptance certificate.</span></figcaption>
+        <figcaption class="mt-4 text-muted" data-reveal>The paper was accepted to SAVTEK 2026, the 12th Defense Technologies Congress, and presented by the team at METU.<span class="meta mt-2 block">SAVTEK 2026 congress presentation acceptance certificate.</span></figcaption>
       </figure>
     </div>
   </section>
@@ -171,7 +171,7 @@
     <div class="page">
       <h2 class="text-4xl tracking-[-.03em] sm:text-5xl" data-reveal>Technical flow</h2>
       <ol class="mt-12 border-t border-line">
-        <li class="grid gap-3 border-b border-line py-8 lg:grid-cols-12 lg:gap-8" data-reveal><h3 class="text-2xl tracking-[-.02em] lg:col-span-5">1. Protocol modelling</h3><p class="text-muted lg:col-span-7">We modelled the BB84 and B92 protocols in Python on a Raspberry Pi 3 B+; in our tests, BB84 produced roughly twice as many shared bits.</p></li>
+        <li class="grid gap-3 border-b border-line py-8 lg:grid-cols-12 lg:gap-8" data-reveal><h3 class="text-2xl tracking-[-.02em] lg:col-span-5">1. Protocol modeling</h3><p class="text-muted lg:col-span-7">We modeled the BB84 and B92 protocols in Python on a Raspberry Pi 3 B+; in our tests, BB84 produced roughly twice as many shared bits.</p></li>
         <li class="grid gap-3 border-b border-line py-8 lg:grid-cols-12 lg:gap-8" data-reveal><h3 class="text-2xl tracking-[-.02em] lg:col-span-5">2. QBER-based eavesdropping detection</h3><p class="text-muted lg:col-span-7">We monitored the ratio of erroneous bits to total transmitted bits. When QBER exceeded the 10% threshold, the channel was deemed insecure and key generation was stopped.</p></li>
         <li class="grid gap-3 border-b border-line py-8 lg:grid-cols-12 lg:gap-8" data-reveal><h3 class="text-2xl tracking-[-.02em] lg:col-span-5">3. Hybrid secure communication</h3><p class="text-muted lg:col-span-7">We built a hybrid structure by integrating the secure keys that stayed below the QBER threshold into AES-GCM encrypted data transmission.</p></li>
       </ol>
@@ -182,7 +182,7 @@
     <div class="page grid gap-10 lg:grid-cols-12">
       <h2 class="text-4xl tracking-[-.03em] sm:text-5xl lg:col-span-4" data-reveal>What I gained from this project</h2>
       <div class="lg:col-span-7 lg:col-start-6" data-reveal>
-        <p class="font-display text-2xl leading-snug tracking-[-.015em] sm:text-3xl">This work gave me the opportunity to approach embedded system development and quantum communication concepts together. Presenting a technical system at a congress allowed me to connect with experts in defence technologies, cybersecurity, and quantum technologies, and to deepen my knowledge.</p>
+        <p class="font-display text-2xl leading-snug tracking-[-.015em] sm:text-3xl">This work gave me the opportunity to approach embedded system development and quantum communication concepts together. Presenting a technical system at a congress allowed me to connect with experts in defense technologies, cybersecurity, and quantum technologies, and to deepen my knowledge.</p>
         <a class="btn btn-primary mt-10" href="/en/#projects">Back to other projects →</a>
       </div>
     </div>
